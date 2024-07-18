@@ -1,4 +1,4 @@
-from os import system
+
 import random
 import csv
 
