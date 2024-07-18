@@ -33,7 +33,7 @@ def clasificar_sueldos(sueldos):
             clasificacion["Entre $800.000 y $2.000.000"].append((trabajador, sueldo))
         else:
             clasificacion["Superiores a $2.000.000"].append((trabajador, sueldo))
-
+    print(" ")
     print("Clasificación de sueldos:")
     for categoria, empleados in clasificacion.items():
         print(f"{categoria} - Total: {len(empleados)}")
