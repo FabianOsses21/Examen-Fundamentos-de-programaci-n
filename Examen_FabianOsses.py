@@ -19,7 +19,7 @@ def asignar_sueldos_aleatorios(trabajadores):
     print("Sueldos aleatorios asignados:")
     for trabajador, sueldo in sueldos.items():
         print("Nombre empleado Sueldo")
-        print(f"{trabajador}: {sueldo}")
+        print(f"{trabajador}: ${sueldo}")
         print(" ")
     return sueldos
 
